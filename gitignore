@@ -1,0 +1,47 @@
+# Python
+
+**pycache**/ *.py\[cod\] *.pyo *.pyd *.so .Python .venv/ venv/ env/
+
+# IDE
+
+.vscode/ .idea/ \*.swp .DS_Store
+
+# Logs
+
+logs/ \*.log
+
+# Local databases
+
+*.db *.sqlite \*.sqlite3
+
+# Environment & secrets
+
+.env .env.\* config/local.yaml config/secrets.yaml
+
+# Build
+
+build/ dist/ \*.egg-info/
+
+# Testing
+
+.pytest_cache/ .coverage htmlcov/
+
+# OS
+
+Thumbs.db
+
+# PyInstaller
+
+\*.spec
+
+# Cache
+
+.cache/ .mypy_cache/ .ruff_cache/
+
+# Instrument cache (generated)
+
+data/instruments.csv data/cache/
+
+# Runtime
+
+\*.pid
