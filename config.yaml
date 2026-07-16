@@ -1,0 +1,12 @@
+app:
+  name: TradePilot
+  version: 0.1.0
+
+broker:
+  api_key: ""
+  api_secret: ""
+  access_token: ""
+
+trading:
+  trade_quantity: 4800
+  max_order_quantity: 1800

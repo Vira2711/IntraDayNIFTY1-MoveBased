@@ -1,0 +1,22 @@
+entry:
+  time: "09:25"
+
+vix:
+  minimum: 12
+  maximum: 20
+
+expiry:
+  minimum_days: 7
+
+strikes:
+  otm_percent: 1.0
+
+adjustment:
+  trigger_percent: 0.95
+  itm_distance: 100
+
+risk:
+  stop_loss_per_quantity: 60
+
+exit:
+  time: "15:15"
